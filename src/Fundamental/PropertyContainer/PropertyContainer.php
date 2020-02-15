@@ -4,7 +4,7 @@ declare(strict_types = 1);
 
 namespace app\Fundamental\PropertyContainer;
 
-class PropertyContainer implements PropertyContainerInterface
+trait PropertyContainer
 {
     private $propertyContainer = [];
 
