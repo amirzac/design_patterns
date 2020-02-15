@@ -1,0 +1,1 @@
+> Event channel - fundamental design pattern, is used for creation event channel and communication using events. Give ability to publishers publish their events and subscribe to events 
