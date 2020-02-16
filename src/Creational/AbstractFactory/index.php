@@ -8,10 +8,12 @@ require '../../../vendor/autoload.php';
 
 //bootstrap
 $guiKit = (new GuiKitFactory())->getFactory('bootstrap');
-$guiKit->buildButton()->draw();
-$guiKit->buildCheckBox()->draw();
+$bootstrapRender[] = $guiKit->buildButton()->draw();
+$bootstrapRender[] = $guiKit->buildCheckBox()->draw();
+dump($bootstrapRender);
 
 //semanticui
 $guiKit = (new GuiKitFactory())->getFactory('semanticui');
-$guiKit->buildButton()->draw();
-$guiKit->buildCheckBox()->draw();
+$semanticRender[] = $guiKit->buildButton()->draw();
+$semanticRender[] = $guiKit->buildCheckBox()->draw();
+dump($semanticRender);

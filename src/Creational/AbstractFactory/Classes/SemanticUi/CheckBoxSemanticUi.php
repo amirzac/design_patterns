@@ -8,8 +8,8 @@ use app\Creational\AbstractFactory\Interfaces\CheckBoxInterface;
 
 class CheckBoxSemanticUi implements CheckBoxInterface
 {
-    public function draw(): void
+    public function draw(): string
     {
-        dump(sprintf("Draw checkbox from %s", __CLASS__));
+        return (sprintf("Draw checkbox from %s", __CLASS__));
     }
 }

@@ -6,5 +6,5 @@ namespace app\Creational\AbstractFactory\Interfaces;
 
 interface ButtonInterface
 {
-    public function draw(): void;
+    public function draw(): string;
 }

@@ -8,8 +8,8 @@ use app\Creational\AbstractFactory\Interfaces\ButtonInterface;
 
 class ButtonBootstrap implements ButtonInterface
 {
-    public function draw(): void
+    public function draw(): string
     {
-        dump(sprintf("Draw button from %s", __CLASS__));
+        return (sprintf("Draw button from %s", __CLASS__));
     }
 }

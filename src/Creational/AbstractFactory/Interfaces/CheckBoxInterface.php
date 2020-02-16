@@ -6,5 +6,5 @@ namespace app\Creational\AbstractFactory\Interfaces;
 
 interface CheckBoxInterface
 {
-    public function draw(): void;
+    public function draw(): string;
 }
