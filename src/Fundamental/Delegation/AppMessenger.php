@@ -36,7 +36,7 @@ class AppMessenger implements MessengerInterface
 
     public function send(): bool
     {
-        $this->messenger->send();
+        return $this->messenger->send();
     }
 
     public function setSender(string $value): MessengerInterface
