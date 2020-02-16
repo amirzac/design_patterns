@@ -6,8 +6,6 @@ namespace app\Creational\StaticFactory;
 
 require '../../../vendor/autoload.php';
 
-$mailMessenger = StaticFactory::build('email');
-$mailMessenger->send();
+StaticFactory::build('email')->send();
 
-$smsMessenger = StaticFactory::build('sms');
-$smsMessenger->send();
+StaticFactory::build('sms')->send();
