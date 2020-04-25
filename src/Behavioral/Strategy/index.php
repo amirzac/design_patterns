@@ -8,7 +8,6 @@ use app\Behavioral\Strategy\Classes\Context;
 use app\Behavioral\Strategy\Classes\SpecificStrategyA;
 use app\Behavioral\Strategy\Classes\SpecificStrategyB;
 
-
 require '../../../vendor/autoload.php';
 
 $context = new Context(new SpecificStrategyA());
